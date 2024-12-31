@@ -86,7 +86,7 @@ public class Main {
             HttpURLConnection con = fetchApiResponse(apiUrl);
 
             if (con == null) {
-                System.out.println("Failed to establish connection.");
+                System.out.println("Failed ");
                 return null;
             }
 
